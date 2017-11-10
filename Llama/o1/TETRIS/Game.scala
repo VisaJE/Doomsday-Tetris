@@ -122,6 +122,8 @@ object Game extends SimpleSwingApplication {
       bonusScore = session.bonusScore
       updateView(Some(c.toString + "\n" + score))
   }*/
+  
+  
   // To counter multiple schedules of same instance
   private var spinEngaged = false
   private var fastEngaged = false
