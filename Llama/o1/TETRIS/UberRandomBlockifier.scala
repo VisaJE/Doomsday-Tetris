@@ -2,7 +2,7 @@ package o1.TETRIS
 
   import scala.math._
   import scala.util.Random
-  
+ 
 object UberRandomBlockifier {
   private val gen = new Random()
   def getSome(a: Int): Int = {
